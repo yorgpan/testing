@@ -1,0 +1,22 @@
+language: node_js
+node_js:
+- 12
+#- 7
+#- 8
+#- 9
+#- 10
+#- 11
+
+
+before_install:
+- npm update
+
+install:
+- npm install
+
+before_script:
+- npm install --dev --prefer-source --no-interaction
+- npm install --save-dev jest
+
+#script: /usr/local/bin/jest run
+script: jest 

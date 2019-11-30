@@ -19,4 +19,4 @@ before_script:
 - npm install --save-dev jest
 
 #script: /usr/local/bin/jest run
-script: jest 
+script: jest

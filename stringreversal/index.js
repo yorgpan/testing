@@ -11,7 +11,6 @@ function reverse(str) {
 }
 
 
-
 function reverse2(str){
 
     let reversed = '';
@@ -21,8 +20,6 @@ function reverse2(str){
         return acc+arr[arr.length - cur_index - 1]
     }, '')
 }
-
-
 
 
 module.exports = [reverse, reverse2];
